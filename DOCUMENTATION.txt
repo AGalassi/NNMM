@@ -1,0 +1,42 @@
+V 0.1.0
+
+Executable files:
+	main_da.py
+		Analyse a dataset to collect statistics about the state composition (
+	
+	main_dl.py
+		Analyse a dataset to collect statistics about the legal moves for each states
+		
+	main_play.py
+		Client that can be used to play the game of Nine Men's Morris.
+		Communicate thought socket on port 5802 for white player and 5803 for black player.
+		A state string is expected as input on the port and a move string is sent back with format "TO[FROM][REMOVE]".
+	
+	main_reliability.py
+		Execute a reliability test: it measure the ability of the system to assign an higher score to legal choices.
+	
+	main_test.py
+		Execute a legality and accuracy test: it measures the ability of the system to provide accurate moves (equal to the ones in the dataset) abd legal moves.
+	
+	main_training.py
+		Allows to build a network from scratch or to load an existing one and to train it.
+		Networks characteristics must be defined modifying the file.
+
+
+Source files:
+
+	dataprocessing.py
+		Contains the functions used to manipulate the data.
+		
+	legality.py
+		Contains the functions used to establish the legality of a move.
+		
+	networks.py
+		Contains the functions used to create, load, save and use neural networks.
+		
+	testing.py
+		Contains the functions used to test the system according to different characteristics.
+		
+	training.py
+		Contains the functions used to train a neural network system.
+	
