@@ -1,5 +1,4 @@
-# NNMM
-Neural Nine Men's Morris
+# Neural Nine Men's Morris
 
 Neural Nine Men's Morris (NNMM) is a software capable to build, train, test and use Deep Neural Networks which can be used for playing the game of Nine Men's Morris.
 It has been demonstrated that the system is capable to learn to play by the rules of the game, even if the knowledge of those rules has not been provided to it.
