@@ -25,7 +25,7 @@ Executable files:
 	main_dl.py
 		Analyse a dataset to collect statistics about the legal moves for each states
     
-        main_da.py
+	main_da.py
 	        Analyse a dataset to collect statistics about the state composition
 		
 	main_play.py
