@@ -7,8 +7,10 @@ __version__ = "1.1.1"
 __email__ = "a.galassi@unibo.it"
 
 import sys
+import lasagne.regularization as rgl
 
 from training import train
+
 
 def main():
     train(name='TEST-TFR', datasetname="dataset", expanded=True,

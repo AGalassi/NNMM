@@ -1,0 +1,38 @@
+Legality response on DATASET.complete.txt:
+	Only TO leg:	99.9118914601
+	Only FROM leg:	99.9985878074
+	Only REMOVE leg:	99.8561405512
+	Only FROM-TO leg:	99.8989361278
+	Only REMOVE-FROM-TO leg:	99.505364183
+	Whole FROM leg:	99.8814372191
+	Whole REMOVE leg:	99.2735189937
+	Whole MOVE leg:	99.2452137415
+	FROM phase 2 leg:	99.8149752214
+	REMOVE when chosen leg:	98.7900485542
+--------------------
+
+Accuracy response on DATASET.complete.txt:
+	TO accuracy:	50.8754059286
+	FROM accuracy:	63.494452232
+	REMOVE accuracy:	81.0362792285
+	Whole MOVE accuracy:	37.5209756655
+
+	Whole MOVE accuracy in phase 1:	48.6970495554
+	Whole MOVE accuracy in phase 2:	37.3117653146
+	Whole MOVE accuracy in phase 3:	26.3333333333
+
+	FROM not 0 accuracy:	55.1699385633
+	REMOVE not 0 accuracy:	36.5325715911
+
+
+Legality response on STATES.complete.txt:
+	Only TO leg:	99.8883301936
+	Only FROM leg:	99.9951093515
+	Only REMOVE leg:	99.8477186324
+	Only FROM-TO leg:	99.8418210857
+	Only REMOVE-FROM-TO leg:	99.5236891983
+	Whole FROM leg:	99.8150663618
+	Whole REMOVE leg:	99.2572927
+	Whole MOVE leg:	99.1925635293
+	FROM phase 2 leg:	99.7179579453
+	REMOVE when chosen leg:	97.7394316108

@@ -1,4 +1,4 @@
-V 0.1.0
+V 1.1.5
 
 Executable files:
 	main_da.py
@@ -39,4 +39,8 @@ Source files:
 		
 	training.py
 		Contains the functions used to train a neural network system.
-	
+
+		
+Changelog:
+v1.1.5
+	The loading of dataset for training has been improved

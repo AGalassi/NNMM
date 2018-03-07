@@ -978,3 +978,23 @@ def process_state_augmented(states):
         i += 1
 
     return ps
+    
+    
+    
+def load_indexes(filename):
+    index_file = open(filename, 'r')
+    dataset_list = index_file.read().splitlines()
+    list = []
+    for line in dataset_list:
+        line.rstrip('\n')
+        list.append(int(line))
+    return list
+
+    
+    
+def write_indexes(filename, indexes):
+    index_file = open(filename, 'w')
+    for index in indexes:
+        index_file.write(str(index) + "\n")
+    
+    

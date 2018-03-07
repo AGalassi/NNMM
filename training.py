@@ -14,13 +14,15 @@ import lasagne
 import lasagne.regularization as rgl
 import sys
 import random
+import os.path
 
 from networks import (build_ffnet, build_densenet, build_resnet,
                       load_net_weights, save_net_weights)
 from dataprocessing import (load_dataset, load_expanded_dataset,
                             process_state_binary, process_move_onlyTO,
                             process_move_onlyFROM, process_move_onlyREMOVE,
-                            add_CHOICE_binary_raw)
+                            add_CHOICE_binary_raw, load_indexes,
+                            write_indexes)
 
 
 def train(name='prova',
@@ -67,9 +69,12 @@ def train(name='prova',
     vset_size = int(vset_size)
     tset_size = int(tset_size)
 
-    indexes = range(len(A))
-    
-    random.shuffle(indexes)
+    if os.path.isfile(name + "_indexes.txt"):
+        indexes = load_indexes(name + "_indexes.txt")
+    else:
+        indexes = range(len(A))
+        random.shuffle(indexes)
+        write_indexes(name + "_indexes.txt", indexes)
     
     A_train = []
     A_val = []
@@ -397,7 +402,7 @@ def do_training(X_train, X_val, X_test, y_train, y_val, y_test,
     save_net_weights(network, name + '_' + movepart)
     # We iterate over epochs:
         
-    results_file.write("Epoch\tTrain_e\tVal_e\tTrain_a\tVal_a\tBetter?")
+    results_file.write("Epoch\tTrain_e\tVal_e\tTrain_a\tVal_a\tBetter?\n")
         
     for epoch in range(initial_epoch, num_epochs):
         better = False
