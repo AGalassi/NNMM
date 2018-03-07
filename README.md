@@ -25,8 +25,8 @@ Executable files:
 	main_dl.py
 		Analyse a dataset to collect statistics about the legal moves for each states
     
-  main_da.py
-	  Analyse a dataset to collect statistics about the state composition
+        main_da.py
+	        Analyse a dataset to collect statistics about the state composition
 		
 	main_play.py
 		Client that can be used to play the game of Nine Men's Morris.
