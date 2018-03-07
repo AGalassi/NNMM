@@ -6,6 +6,7 @@ It has been designed by Andrea Galassi, as part of his master thesis in Computer
 Please feel free to contact him (a.galassi *at* unibo.it) or his thesis supervisors (Paola Mello, paola.mello *at* unibo.it, Federico Chesani federico.chesani *at* unibo.it) for further questions.
 
 The result of this work have been published in IEEE Transactions on Games: https://doi.org/10.1109/TG.2018.2804039
+
 Further information can be found on the software website: http://ai.unibo.it/NNMM
 
 
