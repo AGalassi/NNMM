@@ -54,3 +54,29 @@ Source files:
 
 	training.py
 		Contains the functions used to train a neural network system.
+		
+### Datasets
+#### Good Moves Dataset (Matches Dataset)
+The dataset consist of 100,154 game states and as many good moves elaborated by an Artificial Intelligence for the game of Nine Men's Morris.
+
+None of the states in the dataset is symmetric to any other, therefore anyone can handle the symmetries as he/she prefers.
+If all the symmetric states are explored, the dataset can reach 1,628,673 pairs.
+
+The dataset contains states both reachable and unreachable during a normal match, decreasing the probability of reaching a training state during a testing match. The moves contained in it could be different from the optimal one, however, it constitutes a good knowledge base, from which other AI system can learn to play the game.
+
+All the data have been generated making play an Artificial Intelligence called Deep Mill against other artificial intelligence and gathering the choices made by Deep Mill during the games.
+
+Three version of the dataset are available:
+
+- The COMPLETE DATASET contains all the data, without the symmetric pairs.
+- The GAMING DATASET do not contains data coming from a regular match starting with an empty board. Therefore it contains states which are more unlikely to be reached during a match.
+- The EXPANDED DATASET contains all the data and the symmetric pairs.
+
+
+#### Reachable States Dataset
+The dataset consist of 2,085,613 states which are reachable through a finite sequence of legal moves starting from the initial empty board configurations. It has been generated exploring the space of the game states applying random choices from a reachable configurations.
+
+None of the states contained in this dataset is present in the Good Moves Dataset.
+
+- The COMPLETE STATES DATASET contains all the states, without the symmetric ones.
+- The EXTENDED STATES DATASET contains all the states. with the symmetric ones.
