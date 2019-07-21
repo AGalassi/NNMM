@@ -1,6 +1,6 @@
 If you use this software as part of any work, please cite it as:
 	
-	F. Chesani, A. Galassi, M. Lippi and P. Mello, "Can Deep Networks Learn to Play by the Rules? A Case Study on Nine Men's Morris," to be published in IEEE Transactions on Games, doi: 10.1109/TG.2018.2804039
+	F. Chesani, A. Galassi, M. Lippi and P. Mello, "Can Deep Networks Learn to Play by the Rules? A Case Study on Nine Men's Morris," in IEEE Transactions on Games, vol. 10, no. 4, pp. 344-353, Dec. 2018. doi: 10.1109/TG.2018.2804039
 
 ### Neural Nine Men's Morris
 Neural Nine Men's Morris (NNMM) is a software capable to build, train, test and use Deep Neural Networks which can be used for playing the game of Nine Men's Morris. It has been demonstrated that the system is capable to learn to play by the rules of the game, even if the knowledge of those rules has not been provided to it. It has been designed by Andrea Galassi, as part of his master thesis in Computer Science Engineering ("Ingegneria Informatica", in italian), and it has been improved as part of a successive work. Please feel free to contact him (a.galassi at unibo.it) or his thesis supervisors (Paola Mello, paola.mello at unibo.it, Federico Chesani federico.chesani at unibo.it) for further questions.
