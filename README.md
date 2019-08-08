@@ -56,6 +56,9 @@ Source files:
 		Contains the functions used to train a neural network system.
 		
 ### Datasets
+
+Additional informations regarding the dataset can be found here: http://ai.unibo.it/DatasetNineMenMorris
+
 #### Good Moves Dataset (Matches Dataset)
 The dataset consist of 100,154 game states and as many good moves elaborated by an Artificial Intelligence for the game of Nine Men's Morris.
 
